@@ -1,8 +1,7 @@
 <!-- readme.md -->
-
-<p align="center">
-<img src="https://github.com/ChrisChase/Authorization/blob/master/art/logo.svg" width="400">
-</p>
+<h1 align="center">
+    Laravel Authorization-MongoDB
+</h1>
 
 <p align="center">
 <a href="https://github.com/ChrisChase/Authorization/actions"><img src="https://img.shields.io/github/actions/workflow/status/ChrisChase/authorization/run-tests.yml?branch=master&style=flat-square"></a>
@@ -12,7 +11,7 @@
 </p>
 
 <p align="center">
-An easy, native role / permission management system for Laravel.
+An easy, native role / permission management system for Laravel and MongoDB.
 </p>
 
 ## Index
