@@ -1,0 +1,6 @@
+/vendor
+composer.phar
+composer.lock
+Thumbs.db
+.idea
+.phpunit.result.cache
