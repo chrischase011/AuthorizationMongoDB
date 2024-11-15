@@ -1,6 +1,6 @@
 <?php
 
-namespace DirectoryTree\Authorization\Traits;
+namespace ChrisChase\Authorization\Traits;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;

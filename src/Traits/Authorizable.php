@@ -1,10 +1,10 @@
 <?php
 
-namespace DirectoryTree\Authorization\Traits;
+namespace ChrisChase\Authorization\Traits;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
-use DirectoryTree\Authorization\Authorization;
+use ChrisChase\Authorization\Authorization;
 
 trait Authorizable
 {

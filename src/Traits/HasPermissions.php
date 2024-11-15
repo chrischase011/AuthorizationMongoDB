@@ -1,9 +1,9 @@
 <?php
 
-namespace DirectoryTree\Authorization\Traits;
+namespace ChrisChase\Authorization\Traits;
 
-use DirectoryTree\Authorization\Authorization;
-use DirectoryTree\Authorization\PermissionPivot;
+use ChrisChase\Authorization\Authorization;
+use ChrisChase\Authorization\PermissionPivot;
 
 trait HasPermissions
 {

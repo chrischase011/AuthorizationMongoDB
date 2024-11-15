@@ -1,5 +1,5 @@
 {
-    "name": "directorytree/authorizationmongodb",
+    "name": "chrischase/authorizationmongodb",
     "description": "Native Laravel Authorization with MongoDB.",
     "keywords": [
         "authorization",
@@ -23,18 +23,18 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "DirectoryTree\\AuthorizationMongoDB\\": "src/"
+            "ChrisChase\\AuthorizationMongoDB\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DirectoryTree\\AuthorizationMongoDB\\Tests\\": "tests/"
+            "ChrisChase\\AuthorizationMongoDB\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DirectoryTree\\AuthorizationMongoDB\\AuthorizationServiceProvider"
+                "ChrisChase\\AuthorizationMongoDB\\AuthorizationServiceProvider"
             ]
         }
     }

@@ -1,14 +1,14 @@
 <!-- readme.md -->
 
 <p align="center">
-<img src="https://github.com/DirectoryTree/Authorization/blob/master/art/logo.svg" width="400">
+<img src="https://github.com/ChrisChase/Authorization/blob/master/art/logo.svg" width="400">
 </p>
 
 <p align="center">
-<a href="https://github.com/DirectoryTree/Authorization/actions"><img src="https://img.shields.io/github/actions/workflow/status/directorytree/authorization/run-tests.yml?branch=master&style=flat-square"></a>
-<a href="https://packagist.org/packages/DirectoryTree/Authorization"><img src="https://img.shields.io/packagist/dt/DirectoryTree/Authorization.svg?style=flat-square"/></a>
-<a href="https://packagist.org/packages/DirectoryTree/Authorization"><img src="https://img.shields.io/packagist/v/DirectoryTree/Authorization.svg?style=flat-square"/></a>
-<a href="https://packagist.org/packages/DirectoryTree/Authorization"><img src="https://img.shields.io/github/license/DirectoryTree/Authorization.svg?style=flat-square"/></a>
+<a href="https://github.com/ChrisChase/Authorization/actions"><img src="https://img.shields.io/github/actions/workflow/status/ChrisChase/authorization/run-tests.yml?branch=master&style=flat-square"></a>
+<a href="https://packagist.org/packages/ChrisChase/Authorization"><img src="https://img.shields.io/packagist/dt/ChrisChase/Authorization.svg?style=flat-square"/></a>
+<a href="https://packagist.org/packages/ChrisChase/Authorization"><img src="https://img.shields.io/packagist/v/ChrisChase/Authorization.svg?style=flat-square"/></a>
+<a href="https://packagist.org/packages/ChrisChase/Authorization"><img src="https://img.shields.io/github/ChrisChase/ChrisChase/Authorization.svg?style=flat-square"/></a>
 </p>
 
 <p align="center">
@@ -31,7 +31,7 @@ An easy, native role / permission management system for Laravel.
 
 To get started, install Authorization via the Composer package manager:
 
-    composer require directorytree/authorization
+    composer require ChrisChase/authorization
 
 The Authorization service provider registers its own database migration directory
 with the framework, so you should migrate your database after installing the
@@ -40,14 +40,14 @@ application needs to store roles and permissions:
 
     php artisan migrate
 
-Now insert the `DirectoryTree\Authorization\Traits\Authorizable` onto your `App\Models\User` model:
+Now insert the `ChrisChase\Authorization\Traits\Authorizable` onto your `App\Models\User` model:
 
 ```php
 <?php
 
 namespace App\Models;
 
-use DirectoryTree\Authorization\Traits\Authorizable;
+use ChrisChase\Authorization\Traits\Authorizable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable
@@ -68,7 +68,7 @@ If you would not like to use Authorization's default migrations, you should call
 `php artisan vendor:publish --tag=authorization-migrations`.
 
 ```php
-use DirectoryTree\Authorization\Authorization;
+use ChrisChase\Authorization\Authorization;
 
 /**
  * Register any application services.
@@ -90,7 +90,7 @@ You're free to extend the models used internally by Authorization, or create you
 Instruct Authorization to use your own models via the `Authorization` class in your `AuthServiceProvider`:
 
 ```php
-use DirectoryTree\Authorization\Authorization;
+use ChrisChase\Authorization\Authorization;
 
 /**
  * Register any authentication / authorization services.
@@ -115,7 +115,7 @@ Be sure to add the relevant traits for each of your custom models:
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use DirectoryTree\Authorization\Traits\ManagesPermissions;
+use ChrisChase\Authorization\Traits\ManagesPermissions;
 
 class Role extends Model
 {
@@ -129,9 +129,9 @@ class Role extends Model
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use DirectoryTree\Authorization\Traits\HasUsers;
-use DirectoryTree\Authorization\Traits\HasRoles;
-use DirectoryTree\Authorization\Traits\ClearsCachedPermissions;
+use ChrisChase\Authorization\Traits\HasUsers;
+use ChrisChase\Authorization\Traits\HasRoles;
+use ChrisChase\Authorization\Traits\ClearsCachedPermissions;
 
 class Permission extends Model
 {
@@ -150,7 +150,7 @@ Authorization uses native Laravel relationships, so there's no need to learn a n
 Create a permission:
 
 ```php
-use DirectoryTree\Authorization\Permission;
+use ChrisChase\Authorization\Permission;
 
 $createUsers = Permission::create([
     'name' => 'users.create',
@@ -161,7 +161,7 @@ $createUsers = Permission::create([
 Create a role:
 
 ```php
-use DirectoryTree\Authorization\Role;
+use ChrisChase\Authorization\Role;
 
 $admin = Role::create([
     'name' => 'administrator',
@@ -398,7 +398,7 @@ This cache is automatically flushed when permissions are created, updated, or de
 If you would like to disable the cache, call `Authorization::disablePermissionCache` in your `AuthServiceProvider`:
 
 ```php
-use DirectoryTree\Authorization\Authorization;
+use ChrisChase\Authorization\Authorization;
 
 /**
  * Register any authentication / authorization services.
@@ -420,7 +420,7 @@ By default, the permission cache key is `authorization.permissions`.
 To alter the cache key, call `Authorization::cacheKey` in your `AuthServiceProvider`:
 
 ```php
-use DirectoryTree\Authorization\Authorization;
+use ChrisChase\Authorization\Authorization;
 
 /**
  * Register any authentication / authorization services.
@@ -442,7 +442,7 @@ By default, the permission cache will expire daily.
 To alter this expiry date, call `Authorization::cacheExpiresIn` in your `AuthServiceProvider`:
 
 ```php
-use DirectoryTree\Authorization\Authorization;
+use ChrisChase\Authorization\Authorization;
 
 /**
  * Register any authentication / authorization services.
@@ -464,7 +464,7 @@ By default all permissions you create are registered in Laravel's Gate.
 If you would like to disable this, call `Authorization::disableGateRegistration` in your `AuthServiceProvider`:
 
 ```php
-use DirectoryTree\Authorization\Authorization;
+use ChrisChase\Authorization\Authorization;
 
 /**
  * Register any authentication / authorization services.
@@ -500,10 +500,10 @@ protected $routeMiddleware = [
     'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
 
     // The role middleware:
-    'role' => \DirectoryTree\Authorization\Middleware\RoleMiddleware::class,
+    'role' => \ChrisChase\Authorization\Middleware\RoleMiddleware::class,
 
     // The permission middleware:
-    'permission' => \DirectoryTree\Authorization\Middleware\PermissionMiddleware::class,
+    'permission' => \ChrisChase\Authorization\Middleware\PermissionMiddleware::class,
 ];
 ```
 
@@ -550,7 +550,7 @@ inside your `TestCase::setUp()` method **before** running your
 tests for permissions to register properly:
 
 ```php
-use DirectoryTree\Authorization\PermissionRegistrar;
+use ChrisChase\Authorization\PermissionRegistrar;
 ```
 
 ```php
@@ -561,3 +561,7 @@ protected function setUp() : void
     app(PermissionRegistrar::class)->register();
 }
 ```
+
+
+### License
+This software is open-source and licensed under the MIT License. See the LICENSE file for details.

@@ -1,11 +1,11 @@
 <?php
 
-namespace DirectoryTree\Authorization;
+namespace ChrisChase\Authorization;
 
 use MongoDB\Laravel\Eloquent\Model;
-use DirectoryTree\Authorization\Traits\ClearsCachedPermissions;
-use DirectoryTree\Authorization\Traits\HasRoles;
-use DirectoryTree\Authorization\Traits\HasUsers;
+use ChrisChase\Authorization\Traits\ClearsCachedPermissions;
+use ChrisChase\Authorization\Traits\HasRoles;
+use ChrisChase\Authorization\Traits\HasUsers;
 
 class Permission extends Model
 {

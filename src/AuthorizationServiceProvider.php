@@ -1,6 +1,6 @@
 <?php
 
-namespace DirectoryTree\Authorization;
+namespace ChrisChase\Authorization;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 

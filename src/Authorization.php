@@ -1,6 +1,6 @@
 <?php
 
-namespace DirectoryTree\Authorization;
+namespace ChrisChase\Authorization;
 
 use DateTimeInterface;
 
@@ -53,14 +53,14 @@ class Authorization
      *
      * @var string
      */
-    public static $roleModel = 'DirectoryTree\Authorization\Role';
+    public static $roleModel = 'ChrisChase\Authorization\Role';
 
     /**
      * The permission model class name.
      *
      * @var string
      */
-    public static $permissionModel = 'DirectoryTree\Authorization\Permission';
+    public static $permissionModel = 'ChrisChase\Authorization\Permission';
 
     /**
      * Get or set when the permission cache expires.

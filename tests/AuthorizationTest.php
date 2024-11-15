@@ -1,10 +1,10 @@
 <?php
 
-namespace DirectoryTree\Authorization\Tests;
+namespace ChrisChase\Authorization\Tests;
 
 use Illuminate\Support\Collection;
-use DirectoryTree\Authorization\Authorization;
-use DirectoryTree\Authorization\PermissionRegistrar;
+use ChrisChase\Authorization\Authorization;
+use ChrisChase\Authorization\PermissionRegistrar;
 
 class AuthorizationTest extends TestCase
 {

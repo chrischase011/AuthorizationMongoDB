@@ -1,9 +1,9 @@
 <?php
 
-namespace DirectoryTree\Authorization;
+namespace ChrisChase\Authorization;
 
 use MongoDB\Laravel\Eloquent\Model;
-use DirectoryTree\Authorization\Traits\ManagesPermissions;
+use ChrisChase\Authorization\Traits\ManagesPermissions;
 
 class Role extends Model
 {

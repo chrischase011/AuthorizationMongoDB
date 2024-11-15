@@ -1,6 +1,6 @@
 <?php
 
-namespace DirectoryTree\Authorization;
+namespace ChrisChase\Authorization;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Contracts\Auth\Access\Gate;

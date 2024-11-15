@@ -1,12 +1,12 @@
 <?php
 
-namespace DirectoryTree\Authorization\Tests;
+namespace ChrisChase\Authorization\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Schema;
-use DirectoryTree\Authorization\Authorization;
-use DirectoryTree\Authorization\AuthorizationServiceProvider;
-use DirectoryTree\Authorization\Tests\Stubs\User;
+use ChrisChase\Authorization\Authorization;
+use ChrisChase\Authorization\AuthorizationServiceProvider;
+use ChrisChase\Authorization\Tests\Stubs\User;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase
@@ -52,7 +52,7 @@ class TestCase extends BaseTestCase
      *
      * @param array $attributes
      *
-     * @return \DirectoryTree\Authorization\Role
+     * @return \ChrisChase\Authorization\Role
      */
     protected function createRole($attributes = [])
     {
@@ -66,7 +66,7 @@ class TestCase extends BaseTestCase
      *
      * @param array $attributes
      *
-     * @return \DirectoryTree\Authorization\Permission
+     * @return \ChrisChase\Authorization\Permission
      */
     protected function createPermission($attributes = [])
     {

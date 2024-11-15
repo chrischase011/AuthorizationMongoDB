@@ -1,6 +1,6 @@
 <?php
 
-namespace DirectoryTree\Authorization\Middleware;
+namespace ChrisChase\Authorization\Middleware;
 
 class RoleMiddleware extends AuthorizationMiddleware
 {

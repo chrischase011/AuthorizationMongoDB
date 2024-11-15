@@ -1,6 +1,6 @@
 <?php
 
-namespace DirectoryTree\Authorization\Middleware;
+namespace ChrisChase\Authorization\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

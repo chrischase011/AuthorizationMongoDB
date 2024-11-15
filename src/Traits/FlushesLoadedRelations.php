@@ -1,8 +1,8 @@
 <?php
 
-namespace DirectoryTree\Authorization\Traits;
+namespace ChrisChase\Authorization\Traits;
 
-use DirectoryTree\Authorization\Pivot;
+use ChrisChase\Authorization\Pivot;
 
 trait FlushesLoadedRelations
 {

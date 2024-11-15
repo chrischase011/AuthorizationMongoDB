@@ -1,9 +1,9 @@
 <?php
 
-namespace DirectoryTree\Authorization;
+namespace ChrisChase\Authorization;
 
 use Illuminate\Database\Eloquent\Relations\Pivot as BaseModel;
-use DirectoryTree\Authorization\Traits\FlushesLoadedRelations;
+use ChrisChase\Authorization\Traits\FlushesLoadedRelations;
 
 abstract class Pivot extends BaseModel
 {

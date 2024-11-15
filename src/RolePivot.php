@@ -1,6 +1,6 @@
 <?php
 
-namespace DirectoryTree\Authorization;
+namespace ChrisChase\Authorization;
 
 class RolePivot extends Pivot
 {

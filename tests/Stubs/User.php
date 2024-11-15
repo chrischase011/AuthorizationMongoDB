@@ -1,9 +1,9 @@
 <?php
 
-namespace DirectoryTree\Authorization\Tests\Stubs;
+namespace ChrisChase\Authorization\Tests\Stubs;
 
 use Illuminate\Foundation\Auth\User as BaseUser;
-use DirectoryTree\Authorization\Traits\Authorizable;
+use ChrisChase\Authorization\Traits\Authorizable;
 
 class User extends BaseUser
 {
