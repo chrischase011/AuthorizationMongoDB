@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisChase\Authorization;
+namespace ChrisChase\AuthorizationMongoDB;
 
 use DateTimeInterface;
 
@@ -53,14 +53,14 @@ class Authorization
      *
      * @var string
      */
-    public static $roleModel = 'ChrisChase\Authorization\Role';
+    public static $roleModel = 'ChrisChase\AuthorizationMongoDB\Role';
 
     /**
      * The permission model class name.
      *
      * @var string
      */
-    public static $permissionModel = 'ChrisChase\Authorization\Permission';
+    public static $permissionModel = 'ChrisChase\AuthorizationMongoDB\Permission';
 
     /**
      * Get or set when the permission cache expires.

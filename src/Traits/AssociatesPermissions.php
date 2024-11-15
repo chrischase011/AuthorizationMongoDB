@@ -1,10 +1,10 @@
 <?php
 
-namespace ChrisChase\Authorization\Traits;
+namespace ChrisChase\AuthorizationMongoDB\Traits;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
-use ChrisChase\Authorization\Authorization;
+use ChrisChase\AuthorizationMongoDB\Authorization;
 
 trait AssociatesPermissions
 {

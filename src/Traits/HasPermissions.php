@@ -1,9 +1,9 @@
 <?php
 
-namespace ChrisChase\Authorization\Traits;
+namespace ChrisChase\AuthorizationMongoDB\Traits;
 
-use ChrisChase\Authorization\Authorization;
-use ChrisChase\Authorization\PermissionPivot;
+use ChrisChase\AuthorizationMongoDB\Authorization;
+use ChrisChase\AuthorizationMongoDB\PermissionPivot;
 
 trait HasPermissions
 {

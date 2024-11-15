@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisChase\Authorization\Middleware;
+namespace ChrisChase\AuthorizationMongoDB\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
@@ -18,7 +18,7 @@ abstract class AuthorizationMiddleware
      */
     public function handle(Request $request, Closure $next, ...$auth)
     {
-        if (! $this->authorize($request->user(), $auth)) {
+        if (!$this->authorize($request->user(), $auth)) {
             return $this->unauthorized();
         }
 

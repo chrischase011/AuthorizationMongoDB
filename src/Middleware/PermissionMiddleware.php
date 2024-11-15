@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisChase\Authorization\Middleware;
+namespace ChrisChase\AuthorizationMongoDB\Middleware;
 
 class PermissionMiddleware extends AuthorizationMiddleware
 {

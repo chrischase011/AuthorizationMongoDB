@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisChase\Authorization\Tests;
+namespace ChrisChase\AuthorizationMongoDB\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Schema;

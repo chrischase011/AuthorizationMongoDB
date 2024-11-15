@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisChase\Authorization\Traits;
+namespace ChrisChase\AuthorizationMongoDB\Traits;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;

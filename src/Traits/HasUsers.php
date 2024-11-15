@@ -1,9 +1,9 @@
 <?php
 
-namespace ChrisChase\Authorization\Traits;
+namespace ChrisChase\AuthorizationMongoDB\Traits;
 
-use ChrisChase\Authorization\Authorization;
-use ChrisChase\Authorization\UserPivot;
+use ChrisChase\AuthorizationMongoDB\Authorization;
+use ChrisChase\AuthorizationMongoDB\UserPivot;
 
 trait HasUsers
 {

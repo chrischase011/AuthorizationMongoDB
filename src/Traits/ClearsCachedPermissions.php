@@ -1,9 +1,9 @@
 <?php
 
-namespace ChrisChase\Authorization\Traits;
+namespace ChrisChase\AuthorizationMongoDB\Traits;
 
-use ChrisChase\Authorization\Authorization;
-use ChrisChase\Authorization\PermissionRegistrar;
+use ChrisChase\AuthorizationMongoDB\Authorization;
+use ChrisChase\AuthorizationMongoDB\PermissionRegistrar;
 
 trait ClearsCachedPermissions
 {

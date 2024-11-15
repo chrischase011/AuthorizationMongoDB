@@ -1,9 +1,9 @@
 <?php
 
-namespace ChrisChase\Authorization;
+namespace ChrisChase\AuthorizationMongoDB;
 
 use Illuminate\Database\Eloquent\Relations\Pivot as BaseModel;
-use ChrisChase\Authorization\Traits\FlushesLoadedRelations;
+use ChrisChase\AuthorizationMongoDB\Traits\FlushesLoadedRelations;
 
 abstract class Pivot extends BaseModel
 {

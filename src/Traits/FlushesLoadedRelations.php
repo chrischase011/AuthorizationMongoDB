@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisChase\Authorization\Traits;
+namespace ChrisChase\AuthorizationMongoDB\Traits;
 
-use ChrisChase\Authorization\Pivot;
+use ChrisChase\AuthorizationMongoDB\Pivot;
 
 trait FlushesLoadedRelations
 {

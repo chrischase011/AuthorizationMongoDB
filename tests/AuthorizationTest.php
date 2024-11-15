@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisChase\Authorization\Tests;
+namespace ChrisChase\AuthorizationMongoDB\Tests;
 
 use Illuminate\Support\Collection;
 use ChrisChase\Authorization\Authorization;

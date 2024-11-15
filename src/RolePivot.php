@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisChase\Authorization;
+namespace ChrisChase\AuthorizationMongoDB;
 
 class RolePivot extends Pivot
 {

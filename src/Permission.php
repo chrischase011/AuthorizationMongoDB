@@ -1,11 +1,11 @@
 <?php
 
-namespace ChrisChase\Authorization;
+namespace ChrisChase\AuthorizationMongoDB;
 
 use MongoDB\Laravel\Eloquent\Model;
-use ChrisChase\Authorization\Traits\ClearsCachedPermissions;
-use ChrisChase\Authorization\Traits\HasRoles;
-use ChrisChase\Authorization\Traits\HasUsers;
+use ChrisChase\AuthorizationMongoDB\Traits\ClearsCachedPermissions;
+use ChrisChase\AuthorizationMongoDB\Traits\HasRoles;
+use ChrisChase\AuthorizationMongoDB\Traits\HasUsers;
 
 class Permission extends Model
 {

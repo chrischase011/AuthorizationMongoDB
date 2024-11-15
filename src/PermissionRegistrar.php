@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisChase\Authorization;
+namespace ChrisChase\AuthorizationMongoDB;
 
 use Illuminate\Cache\CacheManager;
 use Illuminate\Contracts\Auth\Access\Gate;
