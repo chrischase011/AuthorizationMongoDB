@@ -4,10 +4,9 @@
 </h1>
 
 <p align="center">
-<a href="https://github.com/ChrisChase/Authorization/actions"><img src="https://img.shields.io/github/actions/workflow/status/ChrisChase/authorization/run-tests.yml?branch=master&style=flat-square"></a>
-<a href="https://packagist.org/packages/ChrisChase/Authorization"><img src="https://img.shields.io/packagist/dt/ChrisChase/Authorization.svg?style=flat-square"/></a>
-<a href="https://packagist.org/packages/ChrisChase/Authorization"><img src="https://img.shields.io/packagist/v/ChrisChase/Authorization.svg?style=flat-square"/></a>
-<a href="https://packagist.org/packages/ChrisChase/Authorization"><img src="https://img.shields.io/github/ChrisChase/ChrisChase/Authorization.svg?style=flat-square"/></a>
+<a href="https://packagist.org/packages/chrischase/authorizationmongodb"><img src="https://img.shields.io/packagist/dt/chrischase011/authorizationmongodb"/></a>
+<a href="https://packagist.org/packages/chrischase/authorizationmongodb"><img src="https://img.shields.io/packagist/v/chrischase/authorizationmongodb
+"/></a>
 </p>
 
 <p align="center">
