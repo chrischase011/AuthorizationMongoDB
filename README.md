@@ -4,7 +4,8 @@
 </h1>
 
 <p align="center">
-<a href="https://packagist.org/packages/chrischase/authorizationmongodb"><img src="https://img.shields.io/packagist/dt/chrischase011/authorizationmongodb"/></a>
+<a href="https://packagist.org/packages/chrischase/authorizationmongodb"><img src="https://img.shields.io/packagist/dt/chrischase/authorizationmongodb
+"/></a>
 <a href="https://packagist.org/packages/chrischase/authorizationmongodb"><img src="https://img.shields.io/packagist/v/chrischase/authorizationmongodb
 "/></a>
 </p>
